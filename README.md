@@ -1,0 +1,1 @@
+mastodon plugin for Franz

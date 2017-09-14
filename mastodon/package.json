@@ -1,0 +1,21 @@
+{
+  "name": "mastodon",
+  "version": "1.0.0",
+  "description": "Mastodon",
+  "main": "index.js",
+  "author": "Keisuke KAWAHARA <kyohsuke@users.noreply.github.com>",
+  "license": "MIT",
+  "config": {
+    "serviceURL": "https://{teamID}/auth/sign_in",
+    "serviceName": "Mastodon",
+    "message": "put your ServerName: e.g.) https://[TEAM]/",
+    "popup": [],
+    "hasNotificationSound": false,
+    "hasIndirectMessages": false,
+    "hasTeamID": true,
+    "webviewOptions": {
+      "disablewebsecurity": ""
+    },
+    "openDevTools": false
+  }
+}
